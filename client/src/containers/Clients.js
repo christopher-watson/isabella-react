@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import API from "../utils/API";
 import moment from "moment";
+import Mailto from 'react-mailto';
+// const Mailto = require('react-mailto');
 
-const Mailto = require('react-mailto');
 
 class Clients extends Component {
 
